@@ -1,0 +1,18 @@
+{
+  "$schema": "../gen/schemas/mobile-schema.json",
+  "identifier": "mobile",
+  "description": "Permissions to run the app (mobile only)",
+  "windows": ["main"],
+  "platforms": ["android", "iOS"],
+  "permissions": [
+    "nfc:allow-write",
+    "nfc:allow-scan",
+    "biometric:allow-authenticate",
+    "barcode-scanner:allow-scan",
+    "barcode-scanner:allow-cancel",
+    "barcode-scanner:allow-vibrate",
+    "barcode-scanner:allow-open-app-settings",
+    "barcode-scanner:allow-request-permissions",
+    "barcode-scanner:allow-check-permissions"
+  ]
+}
